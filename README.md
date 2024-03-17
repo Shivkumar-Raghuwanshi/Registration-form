@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User Registration Form with Validation
+
+## Project Overview
+
+This project is a robust user registration form with built-in validation. It's designed to provide a seamless user experience, ensuring that all input is correctly formatted before it's processed.
+
+## Tech Stack
+
+- **Next.js**: This is the backbone of our application. Next.js is a powerful React framework that enables server-side rendering and generates static websites for React based web applications.
+
+- **TypeScript**: We use TypeScript to make the development process smoother. TypeScript is a statically typed superset of JavaScript that adds optional types. This helps us catch errors early in the development process.
+
+- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework. We use it to rapidly build custom user interfaces without leaving our HTML.
+
+- **Shadcn UI**: Shadcn UI is a UI library that helps us build high-quality, accessible design systems. It provides us with a set of well-designed and comprehensive components.
+
+- **Zod**: Zod is a TypeScript-first schema declaration and validation library. We use it to ensure the data we receive is as expected.
+
+- **Docker**: Docker allows us to package our application along with all of its dependencies into a standardized unit for software development. This makes it easy to share our application and ensures it runs the same, regardless of the environment.
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+First, you need to clone the repository to your local machine. You can do this with the following command:
+- git clone https://github.com/yourusername/yourrepository.git
+- cd yourrepository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Install dependencies
+- npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Run the application
+- npm run dev
+Now, you should be able to access the application at http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Docker
+If you prefer to use Docker, you can follow these steps:
 
-## Learn More
+# Build the Docker image
 
-To learn more about Next.js, take a look at the following resources:
+First, you need to build the Docker image. You can do this with the following command:
+- docker build -t your-image-name .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Run the Docker container
+Next, you can start the Docker container with the following command:
+- docker run -p 3000:3000 your-image-name
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Now, you should be able to access the application at http://localhost:3000.
