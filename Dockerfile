@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Update any outdated packages
+RUN npm update
+
 # Copy the rest of your app's source code
 COPY . .
 
