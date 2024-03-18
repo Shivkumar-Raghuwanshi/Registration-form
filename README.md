@@ -1,3 +1,7 @@
+# Watch the Registration form video by clicking on the thumbnail below:
+
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/ZE-0FhVQiE8/maxresdefault.jpg)](https://www.youtube.com/embed/ZE-0FhVQiE8?si=5ygDlXfPCK4xYWKH)
+
 # User Registration Form with Validation
 
 ## Project Overview
@@ -23,25 +27,27 @@ This project is a robust user registration form with built-in validation. It's d
 ### Clone the repository
 
 First, you need to clone the repository to your local machine. You can do this with the following command:
-- git clone https://github.com/yourusername/yourrepository.git
-- cd yourrepository
+- git clone https://github.com/Shivkumar-Raghuwanshi/Registration-form.git
+- cd Registration-form
 
-# Install dependencies
+### Install dependencies
 - npm install
 
-# Run the application
+### Run the application
 - npm run dev
+- 
 Now, you should be able to access the application at http://localhost:3000.
 
-# Docker
+## Docker
 If you prefer to use Docker, you can follow these steps:
 
-# Build the Docker image
+### Build the Docker image
 
 First, you need to build the Docker image. You can do this with the following command:
 - docker build -t your-image-name .
 
-# Run the Docker container
+### Run the Docker container
+
 Next, you can start the Docker container with the following command:
 - docker run -p 3000:3000 your-image-name
 
